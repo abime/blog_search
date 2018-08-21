@@ -1,0 +1,31 @@
+<%= render "welcome" %>
+<center>
+	<table class="table striped-table">
+	  <thead class="thead-default th-pink">
+	    <tr>
+	     	<th>Blog Titles</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  	<% if @index_array.present? %>
+	  		<h3><%= @index_array.length%> Blogs found related to "<%=@search_key%>".</h3>
+				<% @index_array.each do |index| %>
+	  			<tr>
+					<td><a href=<%=@response_array[index]["guid"]["rendered"] %> target="_blank"><%= @response_array[index]["title"]["rendered"]%></a></td>
+		  		</tr>
+					<% end %>
+					</br>	
+			<% else %>
+				</br>
+				<h3>Sorry we couldn't find any results matching "<%=@search_key%>"</h3>
+				<h3>However we are enlisting few of our top blogs that you may find interesting</h3>
+				</br>
+				<% @response_array.first(5).shuffle.each do |resp| %>
+					<tr>
+					<td><a href=<%=resp["guid"]["rendered"] %> target="_blank"><%= resp["title"]["rendered"]%></a></td>
+					</tr>
+				<% end %>
+			<% end %>	
+	  </tbody>
+	</table>
+</center>

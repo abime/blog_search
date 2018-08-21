@@ -1,0 +1,13 @@
+<center>
+	<H2>Blog Search Engine</H2>
+	<%= form_tag(search_path, method: :post, role: 'form') do %>
+	  <div class='row'>
+	    <div class="form-group">
+	      <%= text_field_tag :search_key, nil, placeholder: 'Type your search term here', class: 'form-control' %>
+	      <br>
+	      <%= submit_tag "Search" %>
+	      <%= submit_tag "Reset", type: 'reset', value: 'Reset' %>
+	    </div>
+	  </div>
+	<% end %>
+</center>

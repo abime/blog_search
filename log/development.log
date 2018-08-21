@@ -1,0 +1,2972 @@
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:23:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 24ms (Views: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:23:57 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (5.3ms)
+Completed 200 OK in 11ms (Views: 9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:23:59 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 9ms (Views: 7.6ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2018-08-21 16:24:21 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1359ms (Views: 1358.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:25:07 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:25:08 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:29:36 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 93ms (Views: 91.9ms)
+
+
+Started POST "/blogs/search" for 127.0.0.1 at 2018-08-21 16:29:41 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/blogs/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:50:47 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 27.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 16:50:51 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mUXRp2rWCoSLQ+w61NegmrnUpV8vQaq7IdGB6f2fDJ7wVLhe34OWPmUKk7qm1UnmaIgYpCBZVCZ6uJlXIZCVMA==", "q"=>"check", "commit"=>"Search"}
+Completed 500 Internal Server Error in 4ms
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x007fba81e34688>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/blogs_controller.rb:7:in `search'
+Started GET "/search" for 127.0.0.1 at 2018-08-21 16:51:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:51:31 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 26.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 16:51:43 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jpzXKxu5JvFkInOpjspmBVJwvdqkUvJ1PqnqPYm/yUrnjb7Sruy6S4prDCn8yI95gywAIatKDOhlwPKDVbBQ5A==", "q"=>"check", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 19017ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:52:09 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 31.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 16:52:11 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X9o6lAnm+fH7+AyNGKjdF8w7K8nc6xj2FnwqI+iuCRg2y1NtvLNlSxWxcw1qqjRrHWeWMtPz5mtNFTKdNKGQtg==", "q"=>"ayush", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 48064ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 16:53:05 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 25.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 16:53:14 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MT3zM5gJRSCAc8FCM2gj2vC1no11qIpB6BOBZ3IPLZJYLJrKLVzZmm46vsJBasqmIekjdnqwdNyzepnZrgC0PA==", "search_key"=>"solar", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 850046ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:07:33 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 21.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:07:36 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fKxRLTJsVobTNgmIIEpAxnkbqjYBTxJWMhRRrQaAVS8VvTjUhznKPD1/dghSSKm6qEcXzQ5X7MtpfUkT2o/MgQ==", "search_key"=>"check", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 528934ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:16:31 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 28.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:16:34 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fRjI1sCaa2ha+cJCg6mB0u2/Qj9+Fc9lBNBd4g4HvqYUCaEvdc/30rSwvcLxq2iuPOP/xHENMfhfuUVc0ggnCA==", "search_key"=>"solar", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 2563ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:17:05 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 261ms (Views: 251.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:17:08 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HfpTKZcPf40hHEP+G5III+wZO4g0TU6ush+Ag40cSYh06zrQIlrjN89VPH5pkOFfPUWGcztVsDPpdpg9URPQJg==", "search_key"=>"solar", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 52742ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:18:08 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 39.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:18:13 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pJfwowNRPypzY3F4jqrV9J9PwxU6pZ4JkNtLDH/BfozNhplatgSjkJ0qDvj8qDyIThN+7jW9YJTLslOyo87nIg==", "search_key"=>"power", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 33094ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:18:48 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 21.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:18:50 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aLB0m21ReZC652823FwYgs/yr/RpRY1oe5yYkpkZx2QBoR1i2ATlKlSuELauXvH+Hq4SD2Zdc/Ug9YAsRRZeyg==", "search_key"=>"solar", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 2343ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:19:01 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 258ms (Views: 248.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:19:04 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9bFGP6yh4DtpCPNA7iFPcm2zC3b6LA2heEfGJeaOVfWcoC/GGfR8gYdBjMCcI6YOvO+2jfU08zwjLt6bOoHMWw==", "search_key"=>"solar", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 156695ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:21:42 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 27.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:21:48 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jfUPgqzLvw62mX0q0WI4pO2wlWbv3hL0XhPdg27opgTk5GZ7GZ4jtFjQAqqjYNHYPOwoneDG7GkFesU9suc/qg==", "search_key"=>"power", "commit"=>"Search"}
+No template found for BlogsController#search, rendering head :no_content
+Completed 204 No Content in 3383ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:22:02 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 288ms (Views: 278.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:22:05 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uw+DAyEWh2KynSgGs6sFvdhVZjRKv85damiBxHGnjZrSHur6lEMb2FzUV4bBqezBCQnbz0WnMMAxAZl6ragUNA==", "search_key"=>"power", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.5ms)
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:28:13 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 367731ms (Views: 49.6ms)
+
+
+Completed 200 OK in 62ms (Views: 60.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:28:19 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBS3UwKMjsKAuxT10DQwTXpYrao349GJT3X0tBWkSuLtBd6qt9kSeG7ya3WiNtkxqwQQUTj7LxQUHOwKyavTTA==", "search_key"=>"checkcheck", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2887ms (Views: 21.5ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 17:28:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:28:35 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 28.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:28:37 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3M9azZ20kgBRuetyDDcvNzCPc1D5CK5Zk2gJCjjdX/GYlSSgyNO8u8PmC26MjXADZ6ANkz83CQ9JLia9Ozs0Q==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2379ms (Views: 26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:28:42 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 41.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:28:46 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vhO85GGOb4X1yUnTMW2sAtBBfoz10AjFobySWSxiGhvXAtUd1NvzPxuANlNDb0V+AR3Dd/rI9lj61Yrn8G2DtQ==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2388ms (Views: 25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:29:20 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 27.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:29:25 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IP6NxYzTWnNdoOuGbpJBwDeaac980XB6dK7OghY0i2ZJ7+Q8OYbGybPplAYckKi85sbUNHPJjucvx9Y8yjsSyA==", "search_key"=>"ayush solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2358ms (Views: 23.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:29:46 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 42ms (Views: 40.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:29:49 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C0PvNAGTYq9C5JopRKNhZaw1ydC6hVb6BlRXfkFBOWNiUobNtMb+Fayt5ak2oYgZfWl0K7WdqGddPU/AnU6gzQ==", "search_key"=>"check", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2485ms (Views: 26.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:30:24 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 275ms (Views: 265.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:30:28 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SSxWE/kdS45g5wYtg9yOmjSMCnah7vwlRIrNIxassmUgPT/qTEjXNI6uea3x3mfm5dC3ja72Argf49WdyqMryw==", "search_key"=>"goodle", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (267.7ms)
+Completed 500 Internal Server Error in 2741ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `key_array' for #<#<Class:0x000000046855c0>:0x007f2b553cebc8>):
+    1: the ids are <%= key_array %>
+  
+app/views/blogs/search.html.erb:1:in `_app_views_blogs_search_html_erb___2226782335347704886_69912069251300'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:30:42 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 28.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:30:45 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qR/2bdcRsS4VTIdRyR75UmHGpY1AT0HpCpR1AwVgJznADp+UYkQtlPsF+NG7HBAusJoYdk9Xv3RR/W292W++lw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2392ms (Views: 19.7ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 17:31:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:31:09 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 40ms (Views: 37.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:31:11 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V2m0ESgxuG4ztf3mKTTyP4LfjZqTjZRRGi5dB920q84+eN3onWQk1N38gmZbNhtDU4MwYZyVasxBR0W5AbsyYA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2269ms (Views: 25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:31:25 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 32.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:31:29 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"awYIbqapGyyb7ZJGDBFjj7kgm2UUmNyIP5APjZOb/5ECF2GXE/yHlnWk7cZ+E4rzaHwmnhuAIhVk+RczT5RmPw==", "search_key"=>"power", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2382ms (Views: 27.6ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 17:33:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:33:09 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 26.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:33:13 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D7cWLWwE6mW9e/EsNMKfUaXCEsCyjzWhVDVQ9S9FGDlmpn/U2VF231MyjqxGwHYtdJ6vO72XyzwPXEhL80qBlw==", "search_key"=>"power", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2436ms (Views: 16.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 17:35:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:35:16 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 27.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:35:20 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wfeo7o4um5yFhpn5LeRYmJvpDujS+odxXuGleNXnSQio5sEXO3sHJmvP5nlf5rHkSrWzE93ieewFiL3GCejQpg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2406ms (Views: 24.4ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 17:35:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:44:21 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 26.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:44:27 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B30CXZ0lh/Xctt/udemZzJYU4AA3R3jp1b+AdTRlEE9ubGukKHAbTzL/oG4H63CwR0hd+zhfhnSO1pjL6GqJ4Q==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2450ms (Views: 18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:47:50 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 26.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:47:53 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wBvdrh4d7Ts9YhZJOoH3//TRmC3WY8Zq1y7n+KXbx4CpCrRXq0hxgdMraclIgx6DJY0l1tl7OPeMR/9GedReLg==", "search_key"=>"solar", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2993ms
+
+
+  
+NoMethodError (undefined method `find_index' for #<BlogsController:0x007f2b58771d68>):
+  
+app/controllers/blogs_controller.rb:13:in `block in search'
+app/controllers/blogs_controller.rb:11:in `each'
+app/controllers/blogs_controller.rb:11:in `search'
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:48:17 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:48:19 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:48:26 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:48:35 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:03 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:07 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:12 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:18 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:23 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:25 +0530
+Started PUT "/__web_console/repl_sessions/23900c182ebd40656d865aa27d782134" for 127.0.0.1 at 2018-08-21 17:49:25 +0530
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:50:27 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:50:31 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ug0ZjkvfE7hanF8OXRPdUrgqpkz8DD/TQoJ80ogUm9rTHHB3/oqPArTVII4vETQuaXYbt/MUwU4Z62RsVBsCdA==", "search_key"=>"solar", "commit"=>"Search"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2403ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:50:33 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:51:52 +0530
+Processing by BlogsController#search as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/blogs_controller.rb:8:in `search'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:52:46 +0530
+Processing by BlogsController#search as HTML
+Completed 500 Internal Server Error in 70470ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:53:56 +0530
+  
+Processing by BlogsController#search as HTML
+app/controllers/blogs_controller.rb:9:in `search'
+Completed 500 Internal Server Error in 1043ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/blogs_controller.rb:9:in `search'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:54:55 +0530
+Processing by BlogsController#search as HTML
+Redirected to 
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/blogs_controller.rb:19:in `block (2 levels) in search'
+app/controllers/blogs_controller.rb:18:in `search'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:55:02 +0530
+Processing by BlogsController#search as HTML
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/blogs_controller.rb:19:in `block (2 levels) in search'
+app/controllers/blogs_controller.rb:18:in `search'
+Started GET "/asdasd" for 127.0.0.1 at 2018-08-21 17:55:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/asdasd"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:29 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:30 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:35 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:56:37 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:07 +0530
+Processing by BlogsController#search as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:57:43 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 202ms (Views: 200.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 17:58:01 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 17:58:05 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98jO/1ffYv06OPwewpdpAPAK71OPsK1sSotug4HVp8me2acG4or+R9Rxg56wlYB8IVZSqICoU/ER4nY9Xdo+Zw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2393ms (Views: 18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:02:00 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 46.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:02:03 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N4dFs0r+Ua7s2lRC7ZO9LXsd8cRaU5ohCp2mp1pHuXNelixK/6vNFAKTK8KfkVRRqkFMP1VLZLxR9L4Zhkgg3Q==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2403ms (Views: 22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:02:55 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 28.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:02:58 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y2VEIdknChkwKpPMLH+c81qtHdrtDEfvnjnAtnqsZOgKdC3YbHKWo95j7ExefXWPi/GgIeIUuXLFUNgIpqP9Rg==", "search_key"=>"solar", "commit"=>"Search"}
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:05:36 +0530
+  Rendering blogs/search.html.erb within layouts/application
+Processing by BlogsController#welcome as HTML
+  Rendered blogs/search.html.erb within layouts/application (1.1ms)
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 158550ms (Views: 60.7ms)
+
+
+Completed 200 OK in 60ms (Views: 58.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:05:40 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dsFBmdesu0hQQP5lvc/zoo1VbXd1juf2VwsVsW3cyqsf0ChgYvkn8r4JgeXPzRreXAnQjHqWGWsMYg0PsdNTBQ==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2353ms (Views: 23.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:05:56 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 22.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:06:04 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gF/I8WQpLhoDw1gtOJ2MK8S/FH9cdNHDGSsPnKwCDc3pTqEI0XyyoO2KJ61Kn2VXFeOphFNsL15CQhcicA2UYw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2375ms (Views: 23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:06:30 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 27.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:06:34 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JNJ4Gz5wp6NqvH0EaohlVv7u9UTRaHsAyMgLZKo+/IxNwxHiiyU7GYT1AoQYiowqL7JIv95whZ2ToRPadjFlIg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2255ms (Views: 21.5ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 18:06:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:06:55 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:12:15 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 31ms (Views: 29.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:12:26 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AvBQJHuBJAJCGJdGP1Egx+BbB9jh4XtKPkl56io8JrFr4TndztS4uKxR6MZNU8m7MQe6I+75hddlIGFU9jO/Hw==", "term"=>"solar", "commit"=>"Search"}
+Completed 500 Internal Server Error in 6ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/blogs_controller.rb:9:in `search'
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:13:07 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:13:10 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIiy4SsocdohUqnvpE5ZKfBZGJnrnZS/UrC60IKywkEBmdsYnn3tYM8b1m/WTLBVIQWlYuSFaiIJ2aJuXr1b7w==", "term"=>"sdasd", "commit"=>"Search"}
+Completed 500 Internal Server Error in 35536ms
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:13:46 +0530
+app/controllers/blogs_controller.rb:10:in `search'
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:13:52 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7/OQ2+vEJlx+PUNgKM4OubFYiHI5uX4r2gk4L3aI/yD5bAuOsg+IuOnFREAGWcOseoc4g7ZQq51LgtXvjxIQ==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7444ms (Views: 16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:14:11 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:14:16 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iwnAvc8ZoqohUL0BcsK6bVqjotUVdz48Wi7Wdx4Ne0PiGKlEekw+EM8ZwoEAwFMRi/8fLhpvwKEBR87JwgLi7Q==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2301ms (Views: 19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:25:07 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 35.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:25:27 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 27.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:28:51 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 36ms (Views: 34.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:28:54 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VyGLl0mSiYWxyqmw3QmJO47Luegl5src0k3d4YPdaEE+MOJu/McVP1+D1jCvC2BHX5cEEyr+NEGJJMVfX9Lx7w==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 3061ms
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7: <% else %>
+     8: 	No related blogs found. read following
+     9: 	<% @response_array.each do |resp| %>
+    10: 		<a href=<%=@resp["guid"]["rendered"] %>><%= @resp["title"]["rendered"]%></a>
+    11: 		</br>	
+    12: 	<% end %>
+    13: <% end %>		
+  
+app/views/blogs/search.html.erb:10:in `block in _app_views_blogs_search_html_erb___2543756013358070621_70159436208140'
+app/views/blogs/search.html.erb:9:in `each'
+app/views/blogs/search.html.erb:9:in `_app_views_blogs_search_html_erb___2543756013358070621_70159436208140'
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:29:17 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 47ms (Views: 44.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:29:21 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AOwz+9OGodmyiRmZaD6ikuWifqLL0MqR8RRWMBpUGkNp/VoCZtM9Y1zAZhkaPEvuNP7DWcTINAyqfU6OxluD7Q==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2303ms (Views: 23.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:29:53 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 32.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:29:56 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zsLvcgWCKUaIIuDYeh18w84Bu35UnwpDXyomTgDuhGmn04aLsNe1/GZrn1gIH5W/H10GhVuH9N4EQz7w3OEdxw==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 2234ms
+
+
+  
+ActionView::Template::Error (undefined method `limit' for #<Array:0x007f9e80266e40>):
+     6: 	<% end %>
+     7: <% else %>
+     8: 	No related blogs found. read following
+     9: 	<% @response_array.limit(5).each do |resp| %>
+    10: 		<a href=<%=resp["guid"]["rendered"] %>><%= resp["title"]["rendered"]%></a>
+    11: 		</br>	
+    12: 	<% end %>
+  
+app/views/blogs/search.html.erb:9:in `_app_views_blogs_search_html_erb___2543756013358070621_70159481229880'
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:08 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:14 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:17 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:18 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:23 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:28 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:30 +0530
+Started PUT "/__web_console/repl_sessions/821705799a006db5bca7cd0c1b6c1272" for 127.0.0.1 at 2018-08-21 18:30:31 +0530
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:30:47 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 31.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:30:50 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+J20TbrL+JqZD2xNaMlQGSwQFh+4kYSl6VqV1wzcCveRjN20D55kIHdGE80ay7ll/Uyr5LeJejiyM41p0NOTWQ==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2340ms (Views: 24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:31:06 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 29.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:31:09 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rt076Bx3dxAUT+WBZ31FOl+XFM5DEcbrDjRa2nRttdLHzFIRqSLrqvoGmgEVf6xGjsupNUwJOHZVXUJkqGIsfA==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2392ms (Views: 19.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:32:01 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 29.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:32:06 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"732DGWni0gbqKdiiyI23maasSsBCxaFX4KhMTiC6LwGGbOrg3LdOvARgpyK6j17ld/D3O03dX8q7wVTw/LW2rw==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2382ms (Views: 19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:39:52 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 36.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:39:55 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lh+KJKbMMyIOsZ09YRTYhGmQRR9elhg4gmHwdcrbqfz/DuPdE5mvmOD44r0TFjH4uMz45FGO5qXZCOjLFtQwUg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2375ms
+
+
+  
+SyntaxError (/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:37: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/blogs/search.html.erb:37: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:40:40 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 24.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:40:42 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SwFGOvnmDGwhrug8m71EIm4YyS19fiOQrXJ7PMRLpWUiEC/DTLOQ1s/nl7zpv61ev0R01nJm3Q32G2OCGEQ8yw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 2324ms
+
+
+  
+ActionView::Template::Error (undefined method `count' for nil:NilClass):
+    3: 
+    4: 
+    5: <div class="col-12 text-left mtop10 padding-0">
+    6:   <p>Total SFDC synchonizations count : <%= @sfdc_sync_details.count %></p>
+    7: </div>
+    8: 
+    9: <table class="table striped-table">
+  
+app/views/blogs/search.html.erb:6:in `_app_views_blogs_search_html_erb___2543756013358070621_70159534510300'
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:40:57 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 31.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:41:00 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1syAkf8HXDICr7WJuulCvOXGXzzPacHhzGUVWKgrPsG/3eloSlLAiOzmygnI66vANJrix8BxP3yXDA3mdCSnbw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13666ms (Views: 21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:42:04 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:42:06 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tDkb6KQGXYs/2KRMiu5vtfnTx4/ni8b+CJZ2Pv6OogXdKHIREVPBMdGR28z47IbJKI96dOiTOGNT/26AIoE7qw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2274ms (Views: 22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:43:56 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:44:00 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4WXi9LX6g14aDKnJuRmQuB4PMMn1Pv2TjeHHT8+YIuyIdIsNAK8f5PRF1knLG3nEz1ONMvomAw7WiN/xE5e7Qg==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2471ms (Views: 17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:44:34 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 29.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:44:37 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J/RkKIH50ik8IHVc4v+9N+j+rwW6celIPmfh2v0WWmZO5Q3RNKxOk9JpCtyQ/VRLOaIS/rVpF9VlDvlkIRnDyA==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2542ms (Views: 16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:47:41 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 31.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:47:44 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gvcWcaLhD0o9CZ1hDthryHiQkSP9GbkwJiWFraZPybXr5n+IF7ST8NNA4uF82oK0qcws2PIBR619TJ0TekBQGw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2346ms (Views: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:49:55 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:49:57 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wtXldpb1d4t1le5tfc2FT8DUcxwEFhlPEWZPe+rO7d6rxIyPI6DrMZvcke0Pz2wzEYjO5wsO59JKD1fFNsF0cA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13966ms (Views: 19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:50:58 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 27.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:51:03 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vnMC5A/nS+CwILzX+WeLVIsxVaE6NIKiOH6ezglc6YTXYmsdurLXWl5pw1eLZWIoWm3oWjUsfD9jF4Zw1VNwKg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2456ms (Views: 21.3ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 18:51:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/search" for 127.0.0.1 at 2018-08-21 18:51:50 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vnMC5A/nS+CwILzX+WeLVIsxVaE6NIKiOH6ezglc6YTXYmsdurLXWl5pw1eLZWIoWm3oWjUsfD9jF4Zw1VNwKg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2317ms (Views: 21.6ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 18:58:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:58:02 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 30.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:58:45 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 22.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 18:58:51 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 31.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:00:34 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 56ms (Views: 51.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:00:38 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIhH5X1QTpomfwweA/aKajFSMKPrbPsQXQrI4Yig2pjtmS4cyAXSIMg2c55x9GMW4A6NWOR0BY0GY9BfVK9DNg==", "search_key"=>"check", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12784ms (Views: 23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:02:50 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.6ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 30ms (Views: 27.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:02:57 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.3ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 24.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:04:29 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.4ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 30ms (Views: 29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:04:45 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 30.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:04:47 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fJLX6ZCL0PBRi+2B9vSo1lvHdfxjj75kyD6ZCB1lMCEVg74QJd5MSr/CkgGE9kGqipvIB2yXQPmTV4G2wWqpjw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2412ms (Views: 19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:05:11 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:05:34 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:05:55 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 39ms (Views: 37.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:06:23 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 39.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:06:39 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 28.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:06:43 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D72JKL9G0IHPejOEw182TJfbi6D7DTfY7w0KRsA2Mr5mrODRChNMOyEzTASxXd8wRoc2W/QVyUW0ZBL4HDmrEA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.6ms)
+  Rendered blogs/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2416ms (Views: 23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:07:28 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:07:31 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEK7dTpOFyPnOd4ohsSvVSoNAuhE17tnRJ/9aO6VSMpVU9KMjxuLmQlwoaj0xkYp+1G/E0vPRfof9uXWMprRZA==", "search_key"=>"search", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2245ms (Views: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:08:49 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 19.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:08:54 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KCzJCF1h25GdkvkM2nwp3MXk/RBlT82LzIv7qizsJ+pBPaDx6DRHK3PbhoyofsCgFLhA62pXMxaX4uMU8OO+RA==", "search_key"=>"solar", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2683ms
+
+
+  
+NameError (undefined local variable or method `search_key' for #<BlogsController:0x007f9e8c61b070>
+Did you mean?  @search_key
+               search
+               search_url):
+  
+app/controllers/blogs_controller.rb:14:in `block in search'
+app/controllers/blogs_controller.rb:13:in `each'
+app/controllers/blogs_controller.rb:13:in `search'
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:09:19 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:09:23 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K0hbiuM8IEC6Tb2Saw/OoUPUpa38WkA9FE8JZDylAZtCWTJzVmm8+lQEwhIZDSfdkogYVvNCvqBPJhHa4KqYNQ==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (47.6ms)
+Completed 500 Internal Server Error in 2783ms
+
+
+  
+SyntaxError (/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:10: syntax error, unexpected '<'
+...t_buffer.append=  @search_key></h3>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:13: unknown regexp option - a
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:13: syntax error, unexpected '<'
+...utput_buffer.safe_append='</a></td>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:14: unknown regexp options - tr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:18: unknown regexp option - h
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:18: syntax error, unexpected tINTEGER, expecting keyword_end
+...blogs found. read following</h3>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:22: unknown regexp option - a
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:22: syntax error, unexpected '<'
+...utput_buffer.safe_append='</a></td>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:23: unknown regexp options - tr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:24: syntax error, unexpected '<'
+					</br>	
+					 ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:27: unknown regexp options - tbdy
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:28: syntax error, unexpected '<'
+	</table>
+	 ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: unknown regexp options - ctr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: unterminated string meets end of file
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/blogs/search.html.erb:10: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:13: unknown regexp option - a
+app/views/blogs/search.html.erb:13: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:14: unknown regexp options - tr
+app/views/blogs/search.html.erb:18: unknown regexp option - h
+app/views/blogs/search.html.erb:18: syntax error, unexpected tINTEGER, expecting keyword_end
+app/views/blogs/search.html.erb:22: unknown regexp option - a
+app/views/blogs/search.html.erb:22: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:23: unknown regexp options - tr
+app/views/blogs/search.html.erb:24: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:27: unknown regexp options - tbdy
+app/views/blogs/search.html.erb:28: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:29: unknown regexp options - ctr
+app/views/blogs/search.html.erb:29: unterminated string meets end of file
+app/views/blogs/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end
+Started PUT "/__web_console/repl_sessions/4b5b73ec75a179da35796d7a2f0c0b0e" for 127.0.0.1 at 2018-08-21 19:09:38 +0530
+Started PUT "/__web_console/repl_sessions/4b5b73ec75a179da35796d7a2f0c0b0e" for 127.0.0.1 at 2018-08-21 19:09:42 +0530
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:10:55 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 34.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:10:58 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Io9albqYz8UfIw1zEmdjd+053aw8Y50sdyt8pnvhKWxLnjNsD81Tf/FqcvNgZYoLPGVgVzN7Y7EsQmQYp+6wwg==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 2459ms
+
+
+  
+SyntaxError (/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:10: syntax error, unexpected '<'
+...ut_buffer.append= @search_key></h3>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:13: unknown regexp option - a
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:13: syntax error, unexpected '<'
+...utput_buffer.safe_append='</a></td>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:14: unknown regexp options - tr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:18: unknown regexp option - h
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:18: syntax error, unexpected tINTEGER, expecting keyword_end
+...blogs found. read following</h3>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:22: unknown regexp option - a
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:22: syntax error, unexpected '<'
+...utput_buffer.safe_append='</a></td>
+...                               ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:23: unknown regexp options - tr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:24: syntax error, unexpected '<'
+					</br>	
+					 ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:27: unknown regexp options - tbdy
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:28: syntax error, unexpected '<'
+	</table>
+	 ^
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: unknown regexp options - ctr
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: unterminated string meets end of file
+/home/ayush/Documents/test/oorjan/app/views/blogs/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/blogs/search.html.erb:10: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:13: unknown regexp option - a
+app/views/blogs/search.html.erb:13: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:14: unknown regexp options - tr
+app/views/blogs/search.html.erb:18: unknown regexp option - h
+app/views/blogs/search.html.erb:18: syntax error, unexpected tINTEGER, expecting keyword_end
+app/views/blogs/search.html.erb:22: unknown regexp option - a
+app/views/blogs/search.html.erb:22: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:23: unknown regexp options - tr
+app/views/blogs/search.html.erb:24: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:27: unknown regexp options - tbdy
+app/views/blogs/search.html.erb:28: syntax error, unexpected '<'
+app/views/blogs/search.html.erb:29: unknown regexp options - ctr
+app/views/blogs/search.html.erb:29: unterminated string meets end of file
+app/views/blogs/search.html.erb:29: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:11:30 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 31.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:11:34 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3LMeJLnpbGEg6SfWepq6Ni2HrgdNHykxEv3Mqpi4IRu1onfdDLzw286gWFYImFNK/NsT/EIH16xJlNQURLe4tQ==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2412ms (Views: 21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:11:57 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 32.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:12:10 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GIbVy+p5ZAfsbKxC1MXxeDXYb+6oI3YVfipoChDV2UNxl7wyXyz4vQIl08KmxxgE5ITSFac7iIglQ3C0zNpA7Q==", "search_key"=>"ayush", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2370ms (Views: 20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:12:49 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/welcome.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:19:53 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.0ms)
+  Rendered blogs/welcome.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 42ms (Views: 40.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:20:16 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.5ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 31.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:20:19 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aWR1P7w15efsJPmUhbkLhwP4B98YenZN/QQ1UoOkYJIAdRzGCWB5XQJthhT3u+L70qS6JBdiiNCmbS3sX6v5PA==", "search_key"=>"search", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2461ms (Views: 21.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:20:32 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fn3v03qvFagGKyCVzM7HOv4wAcaP2YgGVymUwA52MLoXbIYqz/qJEuhiXxW+zC5GL2y8PYDBdpsMQIx+0nmpFA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2419ms (Views: 21.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:20:52 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39ay2jN8w1ZpUDyZsKN12SPYEnrkJo+ovIMY+7CPfDS2x9sjhilf7IcZQxnCoZyl8oSvges+cTXn6gBFbIDlmg==", "search_key"=>"power", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8339ms (Views: 20.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:21:27 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Pzs7HNtYKER8mWP5O38Oz9PaUTKg/gKQcaHt/Ez/YOF7YUVxjj8G/+7Gg+W7xVH7hPUv8WbBpcar58JLTxkLQ==", "search_key"=>"Solar Inverters", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2315ms (Views: 22.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:22:03 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YJQJ57GPOCafyaW6rxquRA2Acm8kMxRPPVgll7kbqsEJhWAeBNqknHGA2jrdGEc43NzPlCsr6tJmMT0pZRQzbw==", "search_key"=>"solar power", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.3ms)
+  Rendered blogs/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2426ms (Views: 21.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:22:25 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vdhECM7oc/2AolKGXPyJJ0XVzjb3nuSqbKMbLsN6Xn3UyS3xe73vR27rLQYu/mBblIlzzfiGGjc3ygOQH3XH0w==", "search_key"=>"panel cost", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2973ms (Views: 20.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:26:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:26:35 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.5ms)
+  Rendered blogs/welcome.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 38ms (Views: 33.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:26:39 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lx7SnoV4ujJNVRJCR+wZCyQAVvXlwNdBfiLKiXmHu7BGD7tnMC0miKMcbcI17vB39VzrDurYKdwlS9I3pYgiHg==", "search_key"=>"search", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2557ms (Views: 20.3ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:27:09 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:28:28 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.0ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 263ms (Views: 253.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:28:32 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9QY6aX9U3CXUvKikt/S+ZdqWlT5S5QdVm5jyZ5/rMZqcF1OQygFAnzr11yTF9lcZC8ooxV39+cjA8erZQ+SoNA==", "search_key"=>"search", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.8ms)
+  Rendered blogs/search.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2453ms (Views: 21.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:28:51 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ImTBCPZlqHFvYOJnnPxO8FE0DAFBoarZHAvZmWwwCLFLdajxQzA0y4Epnefu/qeMgGix+k65VERHYsEnsD+RHw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2313ms (Views: 18.8ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:30:49 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.4ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 25.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:30:54 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MKQuBFFIrZeJr0d71NP6rqTW2kGjuhk7chxOfbbjiAxZtUf95B0xLWfmOPum0RPSdYpnuqyi56YpdVbDauwRog==", "search_key"=>"localhost", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2362ms (Views: 19.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:32:57 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:33:00 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jkz+b67w4iTTB2obOxPdXqFNF6KoD9mAWlJZy5VhXZvnXZeWG6V+nj1OFZtJETQicBGqWacXJx0BO0F1SW7ENQ==", "search_key"=>"sososo", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2318ms (Views: 19.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:33:22 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 29ms (Views: 27.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:33:26 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CCDI73Wy6LN1tJ7iHZlmu4DMk/0bF1+/iaTERdqcZ1dhMaEWwOd0CZv94WJvm4/HUZAuBhQPoSLSzdz7BpP++Q==", "search_key"=>"check", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2272ms (Views: 46.4ms)
+
+
+Started GET "/channel_partners" for 127.0.0.1 at 2018-08-21 19:33:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/channel_partners"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/chsdadsasd" for 127.0.0.1 at 2018-08-21 19:33:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/chsdadsasd"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-21 19:33:38 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.5ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 49.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:33:45 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xw2lZm7Ks9MG1X98VVIrgsOLk+viEmAKwrTy0wABFh02HMyf258vaeicAPwnUML+EtcuEO0KnpeZ3ept3A6Psw==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.9ms)
+  Rendered blogs/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 2585ms (Views: 28.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:35:25 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NNr3Yu/zAG8h9nOqXBbbSK1LkwuCqxGYqhfdySN0OYJdy56bWqac1c+/DCouFDI0fBcu8I2z7wXxfsV3/3ugLA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.0ms)
+  Rendered blogs/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 2409ms (Views: 29.2ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:37:15 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.3ms)
+  Rendered blogs/welcome.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 45ms (Views: 43.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:37:18 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v9hF3x7J8sITMxxsX+S54lX0VWBzw0oZFxldi81WBLrWySwmq5xueP16Y+wt5lCehKjom3zbtIRMcEU1EVmdFA==", "search_key"=>"hello", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.9ms)
+  Rendered blogs/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2382ms (Views: 24.8ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:39:47 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:39:51 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kGOJx02MIa6LsaQxf0aHEjw45LnnibZ5AAaqidRUKyb5cuA++Nm9FGX427ENRG5u7WRZQuiRSORbb7I3CFuyiA==", "search_key"=>"hello", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2436ms (Views: 20.2ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:40:35 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (2.6ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 32.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:40:38 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rXxO3ivRtWmMCtDC2+ef/5SwYjzKX+vdUxU6Fk3fhtjEbScnnoQp02JDr0Kp5XaDRezfx8VHFUAIfCKokdAfdg==", "search_key"=>"loca", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2646ms (Views: 22.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:40:49 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TbFJOSo6nOss3+vo9I/5nGym75Low2T2B0RXDQL/+YAkoCDAn28AUcKWlGiGjRDgvfpSaefbmmtcLU+z3vBgLg==", "search_key"=>"india", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2207ms (Views: 19.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:41:57 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AvOJUsXisoIfAULZPDN6OLYqwT3ySwBJqwZAAPV35aNr4uCrcLcuOPFIPVlOMZNEZ3Z8xv1T/tTwb1i+KXh8DQ==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2329ms (Views: 19.8ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:42:31 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:42:35 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VWFaNBb9/ptUxnh9IV+vCWmpN5tvpnCAgb0Dqih1zH08cDPNo6hiIbqPB/1TXUZ1uPWKYGC+jh3a1BsU9HpV0w==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2349ms (Views: 22.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:42:45 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"grmbH1qf0VymrZF+MzbDzS6gI4RF5NLLTtH8csObh3vrqPLm78pN5kjk7v5BNCqx//yef0r8LFYVuOTMH5Qe1Q==", "search_key"=>"panel", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2404ms (Views: 20.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:42:59 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZiNaplW5uAUBgG+16+UnZ6/ABRHglBSIXjvsIjXHyXsPMjNf4Owkv+/JEDWZ584bfpy46u+M6hUFUvSc6chQ1Q==", "search_key"=>"benefits", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2303ms (Views: 18.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:43:05 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PnU5XlaVbgSD4nD2huG8vC6JXI9+3FbszwepOzI2o5lXZFCn48Dyvm2rD3b041XA/9XhdHHEqHGUbrGF7jk6Nw==", "search_key"=>"energy", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2454ms (Views: 23.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:43:14 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I5pm8hVAKf5qNO8qiVSHSARn6GBl2CaEmPnuPkyZDMdKiw8LoBW1RIR9kKr7Vm401TtVm2rA2BnDkPaAkJaVaQ==", "search_key"=>"working", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2311ms (Views: 19.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:43:22 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ItSwY+3A59XmotceOBjY0/nsBtYEq5fJrwrZqYNXFTxLxdmaWJV7bwjrqJ5KGjGvKLC7LQuzaVT0Y8EXX1iMkg==", "search_key"=>"Solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2307ms (Views: 21.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:43:28 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rJ/LzrhHrYOfVlDR0uP0Pe30Siz/DbuFEIqQ7rNWdqXFjqI3DRIxOXEfL1Gg4R1BPKj31/AVRRhL44hQb1nvCw==", "search_key"=>"10", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2366ms (Views: 24.3ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:43:36 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/hIXqmP5mfUn7+mmvgzzMrxIiZ/V3xylCDBDtT1Gq0SXA35T1qwFT8mmlibMDhpObRQ0ZNrH4jhTWVsL4Uky6g==", "search_key"=>"slar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2312ms (Views: 21.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:44:25 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E7O+Jr3bnc8iWeFBZtAr2WIEBzC0kFosJ14rK+grW+56otffCI4BdcwQnsEU0sKls1i6y7uIpLF8NzOVNCTCQA==", "search_key"=>"sadsasd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.3ms)
+  Rendered blogs/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2488ms (Views: 22.6ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:44:36 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.8ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 29.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:44:39 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W9I4yuFdoEFrwVxLx4e+mDJ8wBq+93HpqaRe+G+xHccyw1EzVAg8+4WII8u1hVfk4yB94bHvj3TyzUZGs76EaQ==", "search_key"=>"blog", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2470ms (Views: 22.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:45:32 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ROcgB2TVeTRvTYOxLA4C2kZ4IJ682IpArwXprQu+o/Ut9kn+0YDljoEE/DFeDOumlySdZbPAdN30bPET17E6Ww==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2564ms (Views: 21.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:46:53 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fOQK0cNx3hdxQEKbVeKvwYXbOqMR3LMvYEoT68xlc88V9WModiRCrZ8JPRsn4Ea9VIeHWB7ETbI7IwtVEGrqYQ==", "search_key"=>"asdasd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2456ms (Views: 19.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:47:28 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yrSzlm6owJO3WnH4DmHGbBmI73zWHcaPD7bWOlNlvRmjpdpv2/1cKVkTDnh8Yy8QyNRSh9kFOBJU386Ej2oktw==", "search_key"=>"asdasd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2376ms (Views: 22.1ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:47:42 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.4ms)
+  Rendered blogs/welcome.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 33ms (Views: 31.1ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:47:44 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8jnzlQS1vplWGeLRVjqUYMhY+sqd7zwbOy9dHOgP1a+bKJpsseAiI7hQnVEkOH0cGQRHMZL3woZgRkWiNABMAQ==", "search_key"=>"asdasd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2318ms (Views: 23.2ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:48:08 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fwxjS4H1qj1/KHiajDOBiLSoaqDScqgnPRWL4HhN514WHQqyNKA2h5FhBxr+MWj0ZfTXW91qVrpmfJNepEJ+8A==", "search_key"=>"asd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.1ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2274ms (Views: 22.6ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:48:28 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zchwr6z5E3y88ujEHQw29oz7S3wRqQsCgWxajHEdhIek2RlWGayPxlK7l0RvDt+KXaf2hx6x9Z/aBUIyrRIdKQ==", "search_key"=>"asd", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.2ms)
+  Rendered blogs/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2285ms (Views: 20.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:48:34 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xgC/Xu2oFTYR3u+7yEbU1EGEhr4ZrlsIYPM8j8lOj6evEdanWP2JjP+XkDu6RD2okNg7RRa2pZU7miQxFUEWCQ==", "search_key"=>"maanav", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2347ms (Views: 20.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:48:43 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EllnUcdzNXO8AfRLXpnuia3bAr74uMwCsVUcH6/gUwp7SA6ociapyVJIi8ssmwf1fIe/RfegMp/qPAShc+/KpA==", "search_key"=>"solar", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.3ms)
+  Rendered blogs/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2367ms (Views: 20.4ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:48:50 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lwbCJMLegdPmT9dKGSDZi8Z1uiUZ+9N9AxNRBE7N9aT+F6vdd4sdaQgGqMprIjD3FykH3hbjLeBYekm6ksJsCg==", "search_key"=>"energy", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2330ms (Views: 21.5ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-08-21 19:49:59 +0530
+Processing by BlogsController#welcome as HTML
+  Rendering blogs/welcome.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.3ms)
+  Rendered blogs/welcome.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 33.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-21 19:50:03 +0530
+Processing by BlogsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MBXe7xCJt/XbTIfAfMi2GCPGrVXvoBxRhyiEnEziTDpZBLcWpdwrTzUF+EAOyl9k8poQruC44szcQZwikO3VlA==", "search_key"=>"hello ", "commit"=>"Search"}
+  Rendering blogs/search.html.erb within layouts/application
+  Rendered blogs/_welcome.html.erb (1.0ms)
+  Rendered blogs/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2272ms (Views: 20.4ms)
+
+
